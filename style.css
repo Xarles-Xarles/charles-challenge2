@@ -7,6 +7,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 .head{
@@ -34,7 +35,7 @@
 .head-title{
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 20px;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .arrow{
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .head-links a{
@@ -101,6 +102,13 @@
     margin: auto;
 }
 
+.text-form div{
+    background-color: orange;
+    border-radius: 10px;
+    width: fit-content;
+    height: 8px;
+    position: ;
+}
 .learnmore{
     font-size: 20px;
     font-weight: bold;
@@ -136,6 +144,7 @@
     display: flex;
     text-align: center;
     color: rgba(0, 0, 0, 0.884);
+
 }
 
 .cherry-bg{
