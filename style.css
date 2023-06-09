@@ -286,7 +286,8 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 .foot-icons{
