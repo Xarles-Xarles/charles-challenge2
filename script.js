@@ -1,5 +1,5 @@
 function myFunction() {
-    var x = document.getElementById("headLinks");
+    let x = document.getElementById("headLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
