@@ -103,16 +103,15 @@
 }
 
 .text-form div{
-    background-color: orange;
-    border-radius: 10px;
     width: fit-content;
     height: 8px;
-    position:'' ;
 }
+
 .learnmore{
     font-size: 20px;
     font-weight: bold;
     margin-top: 50px;
+    border-bottom: 5px;
 }
 
 .text-form a{
@@ -120,16 +119,23 @@
     text-decoration: none;
     font-weight: bold;
     color: black;
+    border-bottom: 5px solid rgba(255, 166, 0, 0.2);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+  
 }
 
 .text-form a:hover{
-    border-bottom: 5px double orangered;
+    border-bottom: 5px solid orange;
+    border-radius: 10px;
+    transform: scale(5);
 }
 
 .text-form h3{
     font-family: 'Playfair', serif;
     font-size: 30px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 .img-cup{
     width: 50%;
@@ -280,6 +286,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
 .foot-icons{
@@ -399,6 +406,11 @@
         text-align: center;
         width: 80%;
         padding: 15%;
+    }
+
+    .text-form div{
+       margin: 50px auto;
+       width: 60%;
     }
 
     .cup-div{
